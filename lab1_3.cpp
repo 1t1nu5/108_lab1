@@ -2,6 +2,7 @@
 int main()
 {
 	unsigned long long get;
+	scanf("%ld", &get);
 	while (get >= 330*330*330*330*330*330)
 	{
 		get -= (330*330*330*330*330);
