@@ -12,5 +12,6 @@ int main()
 			pos = i;
 		}
 	}
+	printf("%d %d", pos+1, max);
 	return 0;
 }
