@@ -6,6 +6,7 @@ int main()
 		1 Cycle = left+right
 		total = total % Cycle
 	*/
-	scanf("%d %d %d", &left, &right, $total);
+	scanf("%d %d %d", &left, &right, &total);
+	
 	return 0;
 }
