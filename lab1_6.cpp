@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
 {
-	unsigned int m, n, t;
+	unsigned int left, right, total;
 	return 0;
 }
