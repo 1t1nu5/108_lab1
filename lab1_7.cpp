@@ -2,7 +2,6 @@
 int main()
 {
 	float time;
-	unsigned int hour, minute;
 	char meridiem;
 	scanf("%f", &time);
 	if (time > 12)
@@ -14,6 +13,6 @@ int main()
 	{
 		meridiem = 'a';
 	}
-	
+	printf("%d:%d %c.m.", time%1, time-time%1, meridiem);
 	return 0;
 }
