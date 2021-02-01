@@ -22,6 +22,9 @@ int main()
 	{
 		get -= 330;
 	}
-	
+	while (get >= 330)
+	{
+		get -= 33;
+	}
 	return 0;
 }
