@@ -6,15 +6,15 @@ int main()
 	scanf("%f", &time);
 	time *= 100;
 	int TIME = time;
-	if (time > 1200)
+	if (TIME > 1200)
 	{
-		time -= 1200;
+		TIME -= 1200;
 		meridiem = 'p';
 	}
 	else
 	{
 		meridiem = 'a';
 	}
-	printf("%d:%d %c.m.", time%1, time-time%1, meridiem);
+	printf("%d:%d %c.m.", TIME/100, TIME-100*(TIME/100), meridiem);
 	return 0;
 }
