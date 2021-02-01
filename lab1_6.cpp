@@ -10,7 +10,11 @@ int main()
 		and vice versa.
 	*/
 	scanf("%d %d %d", &left, &right, &total);
-	total = total%(left+right)+1;
+	total %= (left+right);
+	if (total == 0)
+	{
+		total += left+right;
+	}
 	scanf(" %c", &side);
 	if (side == 'L')
 	{
