@@ -6,14 +6,17 @@ int main()
 	scanf("%f", &time);
 	time *= 100;
 	int TIME = time;
-	if (TIME == 0 || TIME == 24)
+	if (TIME == 00)
 	{
-		printf("12:00 p.m.");
+		printf("12:00 a.m.");
 		return 0;
 	}
-	else if (TIME > 1200)
+	else if (TIME >= 1200)
 	{
-		TIME -= 1200;
+		if (TIME != 1200)
+		{
+			TIME -= 1200;
+		}
 		meridiem = 'p';
 	}
 	else
