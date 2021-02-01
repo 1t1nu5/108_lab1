@@ -3,12 +3,6 @@ int main()
 {
 	unsigned int left, right, total;
 	char side;
-	/*
-		1 Cycle = left+right
-		total = total % Cycle
-		starting foot step less than remaining total = end with starting foot
-		and vice versa.
-	*/
 	scanf("%d %d %d", &left, &right, &total);
 	total %= (left+right);
 	if (total == 0)
