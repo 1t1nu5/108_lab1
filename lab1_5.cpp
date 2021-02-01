@@ -3,11 +3,14 @@ int main()
 {
 	int n, max=-2147483647, get, pos;
 	scanf("%d", &n);
-	while (n > 0)
+	for (i = 0; i < n; i++)
 	{
 		scanf("%d", &get);
 		if (get > max)
-		n--;
+		{
+			max = get;
+			pos = i;
+		}
 	}
 	return 0;
 }
