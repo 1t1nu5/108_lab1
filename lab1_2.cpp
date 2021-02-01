@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	unsigned a, b;
+	unsigned int a, b;
 	
 	return 0;
 }
