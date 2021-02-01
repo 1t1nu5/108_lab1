@@ -26,5 +26,6 @@ int main()
 	{
 		get -= 33;
 	}
+	printf("%d %d", get%3, get%11);
 	return 0;
 }
