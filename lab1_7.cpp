@@ -4,9 +4,11 @@ int main()
 	float time;
 	char meridiem;
 	scanf("%f", &time);
-	if (time > 12)
+	time *= 100;
+	int TIME = time;
+	if (time > 1200)
 	{
-		time -= 12;
+		time -= 1200;
 		meridiem = 'p';
 	}
 	else
