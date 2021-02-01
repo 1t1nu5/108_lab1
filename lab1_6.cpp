@@ -18,7 +18,7 @@ int main()
 	scanf(" %c", &side);
 	if (side == 'L')
 	{
-		if (left > total)
+		if (left >= total)
 		{
 			printf("L");
 		}
@@ -29,7 +29,7 @@ int main()
 	}
 	else
 	{
-		if (right > total)
+		if (right >= total)
 		{
 			printf("R");
 		}
