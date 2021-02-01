@@ -11,7 +11,7 @@ int main()
 	*/
 	scanf("%d %d %d", &left, &right, &total);
 	total = total%(left+right);
-	scanf("%c", &side);
+	scanf(" %c", &side);
 	if (side == 'L')
 	{
 		if (left <= total)
@@ -34,6 +34,5 @@ int main()
 			printf("L");
 		}
 	}
-	
 	return 0;
 }
