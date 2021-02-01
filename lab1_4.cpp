@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	int x1, x2, mean;
+	int x1, mean;
+	
 	return 0;
 }
